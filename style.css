@@ -1,0 +1,30 @@
+body
+{
+background-color:#99e2f6;}
+
+h1
+{
+  color:rgb(255, 183, 0);
+  background-color: rgba(62, 64, 64, 0.569);
+}
+
+#show_sketch{
+float: right;
+}
+canvas{
+    border: 5px solid #389db9;
+    border-radius: 5347636464px;
+    animation-name: abrakadabra_ghost_is_here;
+    animation-duration: 5s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes abrakadabra_ghost_is_here {
+ from{box-shadow:1px 1px 100px #ababab;}  
+ to{box-shadow:1px 1px 70px #000000;}   
+}
+p{
+    padding-top:11px ;
+    font-size: 26px;
+}
